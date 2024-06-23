@@ -1,0 +1,28 @@
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #106ded; /* Change heading color */
+}
+
+.terms {
+  text-align: justify;
+  border: 2px solid #106ded; /* Change border color */
+  margin: 0 auto;
+  width: 900px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: #f7f7f7; /* Change background color */
+}
+
+.each_temrs {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+.each_temrs input[type="radio"] {
+  margin-right: 10px; /* Adjust radio button spacing */
+}

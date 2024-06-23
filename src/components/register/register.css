@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #fefe63;
+  --btn-color: rgb(250, 153, 8);
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.login_form {
+  margin: 0 auto;
+  width: 500px;
+  background-color: var(--btn-color);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+input[type="password"],
+input[type="email"],
+input[type="name"],
+button {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #fcfcc7;
+  border: none;
+}
+label {
+  color: black;
+}
+button {
+  font-size: 1rem;
+}
+button:active {
+  transform: translate(2px, 2px);
+}
+.lg_btn {
+  background-color: var(--primary-color);
+}
+.fa_btn {
+  background-color: #106ded;
+  color: white;
+}
+/* .Google {
+  border-left: 3px solid red;
+  border-top: 3px solid yellow;
+  border-right: 3px solid green;
+  border-bottom: 3px solid #106ded;
+} */
+span {
+  font-weight: bold;
+  font-size: 25px;
+}
+.blue {
+  color: #106ded;
+}
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+h4 {
+  text-align: center;
+}
+.orLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orLine::before,
+.orLine::after {
+  content: "";
+  height: 1.5px;
+  width: 48%;
+  background-color: var(--primary-color);
+}
+.orLine::before {
+  margin-inline-end: 20px;
+}
+.orLine::after {
+  margin-inline-start: 20px;
+}
